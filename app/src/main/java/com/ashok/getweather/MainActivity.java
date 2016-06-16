@@ -151,7 +151,7 @@ public class MainActivity extends AppCompatActivity {
                     //----------------------------------------------------------
                     //Display CURRENT weather in top
                     if (null != cityLocal)
-                        mTxt_mainTitle_w_cityName.setText("Weather for " + cityLocal);
+                        mTxt_mainTitle_w_cityName.setText("Weather - " + mCityName);
                     if (null != temperatureLocal)
                         mTxt_temperatureLocal.setText(temperatureLocal + "\u00B0");//for degree F "\u2109");
                     else
@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
                     //txt_sunset.setText("Sunset time: " + sunsetTime);
 
                     //Forecast-5-days-title-line
-                    mTxt_titleFiveDayForcast_w_cityName.setText("Five days forecast for "+cityLocal);
+                    mTxt_titleFiveDayForcast_w_cityName.setText("Five days forecast - "+mCityName);
 
                     //txt_subtitleHiLoStatusForecast.setText(stringToDisplay);
 
